@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="8" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-11T12:20:00 ICT" name="Suite1" finished-at="2024-03-11T12:20:00 ICT" duration-ms="66">
+    <groups>
+    </groups>
+    <test started-at="2024-03-11T12:20:00 ICT" name="FirstTest" finished-at="2024-03-11T12:20:00 ICT" duration-ms="66">
+      <class name="Buoi12_TestNG_Secondpackage.firstclass">
+        <test-method signature="secondMethod()[pri:0, instance:Buoi12_TestNG_Secondpackage.firstclass@29d89d5d]" started-at="2024-03-11T12:20:00 ICT" name="secondMethod" finished-at="2024-03-11T12:20:00 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondMethod -->
+      </class> <!-- Buoi12_TestNG_Secondpackage.firstclass -->
+      <class name="Buoi12_TestNG_Thirdpackage.firstclass">
+        <test-method signature="firstMethod()[pri:0, instance:Buoi12_TestNG_Thirdpackage.firstclass@3514a4c0]" started-at="2024-03-11T12:20:00 ICT" name="firstMethod" finished-at="2024-03-11T12:20:00 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstMethod -->
+        <test-method signature="secondMethod()[pri:0, instance:Buoi12_TestNG_Thirdpackage.firstclass@3514a4c0]" started-at="2024-03-11T12:20:00 ICT" name="secondMethod" finished-at="2024-03-11T12:20:00 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondMethod -->
+      </class> <!-- Buoi12_TestNG_Thirdpackage.firstclass -->
+      <class name="Buoi12_TestNG_Firstpackage.firstclass">
+        <test-method signature="firtMethod()[pri:0, instance:Buoi12_TestNG_Firstpackage.firstclass@1613674b]" started-at="2024-03-11T12:20:00 ICT" name="firtMethod" finished-at="2024-03-11T12:20:00 ICT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firtMethod -->
+        <test-method signature="secondMethod()[pri:0, instance:Buoi12_TestNG_Firstpackage.firstclass@1613674b]" started-at="2024-03-11T12:20:00 ICT" name="secondMethod" finished-at="2024-03-11T12:20:00 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondMethod -->
+      </class> <!-- Buoi12_TestNG_Firstpackage.firstclass -->
+      <class name="Buoi12_TestNG_Thirdpackage.secondclass">
+        <test-method signature="firstMethod()[pri:0, instance:Buoi12_TestNG_Thirdpackage.secondclass@69997e9d]" started-at="2024-03-11T12:20:00 ICT" name="firstMethod" finished-at="2024-03-11T12:20:00 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstMethod -->
+        <test-method signature="secondMethod()[pri:0, instance:Buoi12_TestNG_Thirdpackage.secondclass@69997e9d]" started-at="2024-03-11T12:20:00 ICT" name="secondMethod" finished-at="2024-03-11T12:20:00 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondMethod -->
+      </class> <!-- Buoi12_TestNG_Thirdpackage.secondclass -->
+    </test> <!-- FirstTest -->
+  </suite> <!-- Suite1 -->
+</testng-results>
