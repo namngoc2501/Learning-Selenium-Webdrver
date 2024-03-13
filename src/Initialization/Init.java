@@ -1,21 +1,21 @@
 package Initialization;
 
-import java.time.Duration;
-import java.util.List;
-import java.util.concurrent.TimeUnit;
 
+import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 
 public class Init {
 
 	public static WebDriver driver;
 	public static WebDriverWait wait; 
-	    
+	
+	
 	public static void setUp(String url) throws Exception
 	{
 		// TODO Auto-generated method stub

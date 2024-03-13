@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Buoi11_TestNG.Automation_TestNG">
+      <class name="Buoi15_UserInterActions.ActionClass2">
         <methods>
-          <include name="afterTest"/>
-          <include name="beforeTest"/>
-          <include name="f"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="keyShift"/>
         </methods>
-      </class> <!-- Buoi11_TestNG.Automation_TestNG -->
+      </class> <!-- Buoi15_UserInterActions.ActionClass2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

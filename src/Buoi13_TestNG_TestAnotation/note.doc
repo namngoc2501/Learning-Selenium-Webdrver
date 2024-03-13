@@ -1,0 +1,18 @@
+1. BEFORETEST VÀ AFTERTEST
+Test ở đây là 1 tập hợp nhiều test cases là con của test suite,
+được dùng để gom các test cases ở các class khác nhau. 
+Cách gom nhóm thông qua file xml, ví dụ file testng.xml
+
+2. BEFOREMETHOD VÀ AFTERMETHOD
+Method ở đây chính là test case, những method này được đánh dấu bằng @Test
+
+3. BEFORECLASS VÀ AFTERCLASS
+Class ở đây là class (java) chứa các test cases.
+
+4. BEFOREGROUP VÀ AFTERGROUP	
+Group cũng là tập hợp các test cases, 
+những cách gom nhóm của nó thực hiện quá annotation. 
+Ví dụ @BeforeGroups(groups = { "testOne" })
+
+sử dụng Parameter trong TestNG để làm Data-driven Testing
+https://giangtester.com/bai-5-cach-su-dung-parameter-trong-testng/

@@ -1,47 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="8" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-11T12:20:00 ICT" name="Suite1" finished-at="2024-03-11T12:20:00 ICT" duration-ms="66">
+  <suite started-at="2024-03-12T17:04:29 ICT" name="Default suite" finished-at="2024-03-12T17:04:41 ICT" duration-ms="11329">
     <groups>
     </groups>
-    <test started-at="2024-03-11T12:20:00 ICT" name="FirstTest" finished-at="2024-03-11T12:20:00 ICT" duration-ms="66">
-      <class name="Buoi12_TestNG_Secondpackage.firstclass">
-        <test-method signature="secondMethod()[pri:0, instance:Buoi12_TestNG_Secondpackage.firstclass@29d89d5d]" started-at="2024-03-11T12:20:00 ICT" name="secondMethod" finished-at="2024-03-11T12:20:00 ICT" duration-ms="2" status="PASS">
+    <test started-at="2024-03-12T17:04:29 ICT" name="Default test" finished-at="2024-03-12T17:04:41 ICT" duration-ms="11329">
+      <class name="Buoi15_UserInterActions.RobotClass">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Buoi15_UserInterActions.RobotClass@10d307f1]" started-at="2024-03-12T17:04:29 ICT" name="setUp" finished-at="2024-03-12T17:04:33 ICT" duration-ms="3524" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- secondMethod -->
-      </class> <!-- Buoi12_TestNG_Secondpackage.firstclass -->
-      <class name="Buoi12_TestNG_Thirdpackage.firstclass">
-        <test-method signature="firstMethod()[pri:0, instance:Buoi12_TestNG_Thirdpackage.firstclass@3514a4c0]" started-at="2024-03-11T12:20:00 ICT" name="firstMethod" finished-at="2024-03-11T12:20:00 ICT" duration-ms="0" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="InputDataSearch()[pri:0, instance:Buoi15_UserInterActions.RobotClass@10d307f1]" started-at="2024-03-12T17:04:33 ICT" name="InputDataSearch" finished-at="2024-03-12T17:04:35 ICT" duration-ms="2411" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- firstMethod -->
-        <test-method signature="secondMethod()[pri:0, instance:Buoi12_TestNG_Thirdpackage.firstclass@3514a4c0]" started-at="2024-03-11T12:20:00 ICT" name="secondMethod" finished-at="2024-03-11T12:20:00 ICT" duration-ms="1" status="PASS">
+        </test-method> <!-- InputDataSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Buoi15_UserInterActions.RobotClass@10d307f1]" started-at="2024-03-12T17:04:35 ICT" name="tearDown" finished-at="2024-03-12T17:04:41 ICT" duration-ms="5348" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- secondMethod -->
-      </class> <!-- Buoi12_TestNG_Thirdpackage.firstclass -->
-      <class name="Buoi12_TestNG_Firstpackage.firstclass">
-        <test-method signature="firtMethod()[pri:0, instance:Buoi12_TestNG_Firstpackage.firstclass@1613674b]" started-at="2024-03-11T12:20:00 ICT" name="firtMethod" finished-at="2024-03-11T12:20:00 ICT" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- firtMethod -->
-        <test-method signature="secondMethod()[pri:0, instance:Buoi12_TestNG_Firstpackage.firstclass@1613674b]" started-at="2024-03-11T12:20:00 ICT" name="secondMethod" finished-at="2024-03-11T12:20:00 ICT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- secondMethod -->
-      </class> <!-- Buoi12_TestNG_Firstpackage.firstclass -->
-      <class name="Buoi12_TestNG_Thirdpackage.secondclass">
-        <test-method signature="firstMethod()[pri:0, instance:Buoi12_TestNG_Thirdpackage.secondclass@69997e9d]" started-at="2024-03-11T12:20:00 ICT" name="firstMethod" finished-at="2024-03-11T12:20:00 ICT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- firstMethod -->
-        <test-method signature="secondMethod()[pri:0, instance:Buoi12_TestNG_Thirdpackage.secondclass@69997e9d]" started-at="2024-03-11T12:20:00 ICT" name="secondMethod" finished-at="2024-03-11T12:20:00 ICT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- secondMethod -->
-      </class> <!-- Buoi12_TestNG_Thirdpackage.secondclass -->
-    </test> <!-- FirstTest -->
-  </suite> <!-- Suite1 -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- Buoi15_UserInterActions.RobotClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

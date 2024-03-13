@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Actions Test Suite">
+	<test name="Acions">
+	 <classes>
+	 	<class name = "Buoi15_UserInterActions.ActionsClass">
+	 	 	<methods>
+	 	 		<include name="dragAndDrop"/>
+	 	 	</methods>
+	 	</class>
+	 </classes>
+	</test>
+</suite>
