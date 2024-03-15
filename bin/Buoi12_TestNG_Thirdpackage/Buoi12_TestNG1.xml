@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1">
+    <test name="FirstTest">
+    
+    <!-- Chạy nguyên package -->
+       <packages>
+    		<package name="Buoi12_TestNG_Thirdpackage"/>
+       </packages>
+    
+    <!-- Trong Test có thể có 0 hoặc nhiều đối tượng test: <packages>, <classes>, <methods> (thứ tự).-->
+       <classes>
+            <!-- Chạy tất cả các method có trong class -->
+            <class name="Buoi12_TestNG_Firstpackage.firstclass" /> 
+            <!-- Inlcude: Chạy method được chỉ định đang có trong class -->
+            <!-- Exclude: Chạy tất cả method trừ method được chỉ định đang có trong class -->
+            <class name = "Buoi12_TestNG_Secondpackage.firstclass"  >
+            	<methods>
+            		<!-- <include name="firstMethod"/> -->
+            		<exclude name="firstMethod"/>
+            	</methods>
+            </class>
+           
+     
+        </classes>
+    </test>
+</suite>

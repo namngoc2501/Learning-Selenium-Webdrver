@@ -64,7 +64,7 @@ public class Data_Driven_Testing {
 	
 	@Test (dataProvider = "data-provider1",enabled = false)
 	public void testMethod4(int data[])
-	{
+	{	
 		for(int a:data)
 		{
 			System.out.println("Data is: "+ a);

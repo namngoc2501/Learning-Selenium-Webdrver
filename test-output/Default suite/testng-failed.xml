@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Buoi15_UserInterActions.ActionClass2">
+      <class name="Buoi16_Handle_Alert_PopupWindow_iFrame.HandleIframe">
         <methods>
           <include name="tearDown"/>
+          <include name="IframeNIDNWM"/>
           <include name="setUp"/>
-          <include name="keyShift"/>
         </methods>
-      </class> <!-- Buoi15_UserInterActions.ActionClass2 -->
+      </class> <!-- Buoi16_Handle_Alert_PopupWindow_iFrame.HandleIframe -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-12T17:04:29 ICT" name="Default suite" finished-at="2024-03-12T17:04:41 ICT" duration-ms="11329">
+  <suite started-at="2024-03-15T22:49:30 ICT" name="Default suite" finished-at="2024-03-15T22:50:16 ICT" duration-ms="45121">
     <groups>
     </groups>
-    <test started-at="2024-03-12T17:04:29 ICT" name="Default test" finished-at="2024-03-12T17:04:41 ICT" duration-ms="11329">
-      <class name="Buoi15_UserInterActions.RobotClass">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Buoi15_UserInterActions.RobotClass@10d307f1]" started-at="2024-03-12T17:04:29 ICT" name="setUp" finished-at="2024-03-12T17:04:33 ICT" duration-ms="3524" status="PASS">
+    <test started-at="2024-03-15T22:49:30 ICT" name="Default test" finished-at="2024-03-15T22:50:16 ICT" duration-ms="45121">
+      <class name="Buoi16_Handle_Alert_PopupWindow_iFrame.HandleIframe">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Buoi16_Handle_Alert_PopupWindow_iFrame.HandleIframe@3e84448c]" started-at="2024-03-15T22:49:30 ICT" name="setUp" finished-at="2024-03-15T22:49:34 ICT" duration-ms="3536" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="InputDataSearch()[pri:0, instance:Buoi15_UserInterActions.RobotClass@10d307f1]" started-at="2024-03-12T17:04:33 ICT" name="InputDataSearch" finished-at="2024-03-12T17:04:35 ICT" duration-ms="2411" status="PASS">
+        <test-method signature="IframeNIDNWM()[pri:0, instance:Buoi16_Handle_Alert_PopupWindow_iFrame.HandleIframe@3e84448c]" started-at="2024-03-15T22:49:34 ICT" name="IframeNIDNWM" finished-at="2024-03-15T22:50:10 ICT" duration-ms="36236" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- InputDataSearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Buoi15_UserInterActions.RobotClass@10d307f1]" started-at="2024-03-12T17:04:35 ICT" name="tearDown" finished-at="2024-03-12T17:04:41 ICT" duration-ms="5348" status="PASS">
+        </test-method> <!-- IframeNIDNWM -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Buoi16_Handle_Alert_PopupWindow_iFrame.HandleIframe@3e84448c]" started-at="2024-03-15T22:50:10 ICT" name="tearDown" finished-at="2024-03-15T22:50:16 ICT" duration-ms="5322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Buoi15_UserInterActions.RobotClass -->
+      </class> <!-- Buoi16_Handle_Alert_PopupWindow_iFrame.HandleIframe -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
